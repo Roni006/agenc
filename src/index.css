@@ -27,6 +27,8 @@
 
 @theme {
     --font-inter: "Inter", sans-serif;
+    --shadow-service: 0px 0px 10px 2px rgba(0, 0, 0, 0.25);
+    ;
 }
 
 /* ! react slick slider css */
@@ -36,7 +38,7 @@
     margin: 0 5px !important;
     cursor: pointer !important;
     background: #4756DF !important;
-    border-radius: 50% !important; 
+    border-radius: 50% !important;
 }
 
 .slick-dots li button:before {
@@ -59,7 +61,8 @@
     transform: translate(-50%, -50%) !important;
 }
 
-.slick-dots { 
-    bottom: -125px !important; 
+.slick-dots {
+    bottom: -125px !important;
 }
+
 /* ! react slick slider css */
