@@ -1,0 +1,65 @@
+/*! goggle font link */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/*! tail wind css import  */
+@import "tailwindcss";
+
+/* ! design part */
+
+.container {
+    @apply max-w-[1350px] mx-auto px-[15px];
+}
+
+@layer {
+    .menus .menu li a {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+        transition: all .2s linear;
+        font-family: "Inter", sans-serif;
+    }
+
+    .menus .menu li a:hover {
+        color: #4756DF;
+    }
+}
+
+@theme {
+    --font-inter: "Inter", sans-serif;
+}
+
+/* ! react slick slider css */
+.slick-dots li {
+    width: 24px !important;
+    height: 24px !important;
+    margin: 0 5px !important;
+    cursor: pointer !important;
+    background: #4756DF !important;
+    border-radius: 50% !important; 
+}
+
+.slick-dots li button:before {
+    color: transparent !important;
+}
+
+.slick-dots li.slick-active button {
+    background-color: #fff !important;
+    border-radius: 50% !important;
+    position: relative !important;
+}
+
+.slick-dots li.slick-active button:before {
+    width: 16px !important;
+    height: 16px !important;
+    background-color: #4756DF !important;
+    border-radius: 50% !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+}
+
+.slick-dots { 
+    bottom: -125px !important; 
+}
+/* ! react slick slider css */
