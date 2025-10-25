@@ -1,4 +1,11 @@
+// ! image im port 
 import uiUx from '../../assets/service/ui-ux.png'
+// import design from '../../assets/service/desing.png'
+// import development from '../../assets/service/development.png'
+// import graphics from '../../assets/service/graphics.png'
+// import animation from '../../assets/service/animation.png'
+// import marketing from '../../assets/service/marketing.png'
+// ! image im port 
 
 const Services = () => {
     return (
@@ -18,37 +25,37 @@ const Services = () => {
                             <div className="service-item pt-20 pb-[47px] px-[55px] text-center hover:shadow-service hover:rounded-[20px] cursor-pointer duration-300" >
                                 <img src={uiUx} className='mx-auto' alt="service image" />
                                 <h2 className='font-bold text-[25px] text-[#151515] font-inter pt-10 pb-5'>UI/UX Design</h2>
-                                <p className='text-[16px] font-inter text-[#737373] leading-[26px]  '>There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form, by injected humour, or randomised words which don't look.</p> 
+                                <p className='text-[16px] font-inter text-[#737373] leading-[26px]  '>There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form, by injected humour, or randomised words which don't look.</p>
                             </div>
 
                             <div className="service-item pt-20 pb-[47px] px-[55px] text-center hover:shadow-service hover:rounded-[20px] cursor-pointer duration-300" >
                                 <img src={uiUx} className='mx-auto' alt="service image" />
                                 <h2 className='font-bold text-[25px] text-[#151515] font-inter pt-10 pb-5'>UI/UX Design</h2>
-                                <p className='text-[16px] font-inter text-[#737373] leading-[26px]  '>There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form, by injected humour, or randomised words which don't look.</p> 
+                                <p className='text-[16px] font-inter text-[#737373] leading-[26px]  '>There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form, by injected humour, or randomised words which don't look.</p>
                             </div>
 
                             <div className="service-item pt-20 pb-[47px] px-[55px] text-center hover:shadow-service hover:rounded-[20px] cursor-pointer duration-300" >
                                 <img src={uiUx} className='mx-auto' alt="service image" />
                                 <h2 className='font-bold text-[25px] text-[#151515] font-inter pt-10 pb-5'>UI/UX Design</h2>
-                                <p className='text-[16px] font-inter text-[#737373] leading-[26px]  '>There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form, by injected humour, or randomised words which don't look.</p> 
+                                <p className='text-[16px] font-inter text-[#737373] leading-[26px]  '>There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form, by injected humour, or randomised words which don't look.</p>
                             </div>
 
                             <div className="service-item pt-20 pb-[47px] px-[55px] text-center hover:shadow-service hover:rounded-[20px] cursor-pointer duration-300" >
                                 <img src={uiUx} className='mx-auto' alt="service image" />
                                 <h2 className='font-bold text-[25px] text-[#151515] font-inter pt-10 pb-5'>UI/UX Design</h2>
-                                <p className='text-[16px] font-inter text-[#737373] leading-[26px]  '>There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form, by injected humour, or randomised words which don't look.</p> 
+                                <p className='text-[16px] font-inter text-[#737373] leading-[26px]  '>There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form, by injected humour, or randomised words which don't look.</p>
                             </div>
 
                             <div className="service-item pt-20 pb-[47px] px-[55px] text-center hover:shadow-service hover:rounded-[20px] cursor-pointer duration-300" >
                                 <img src={uiUx} className='mx-auto' alt="service image" />
                                 <h2 className='font-bold text-[25px] text-[#151515] font-inter pt-10 pb-5'>UI/UX Design</h2>
-                                <p className='text-[16px] font-inter text-[#737373] leading-[26px]  '>There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form, by injected humour, or randomised words which don't look.</p> 
+                                <p className='text-[16px] font-inter text-[#737373] leading-[26px]  '>There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form, by injected humour, or randomised words which don't look.</p>
                             </div>
-                            
+
                             <div className="service-item pt-20 pb-[47px] px-[55px] text-center hover:shadow-service hover:rounded-[20px] cursor-pointer duration-300" >
                                 <img src={uiUx} className='mx-auto' alt="service image" />
                                 <h2 className='font-bold text-[25px] text-[#151515] font-inter pt-10 pb-5'>UI/UX Design</h2>
-                                <p className='text-[16px] font-inter text-[#737373] leading-[26px]  '>There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form, by injected humour, or randomised words which don't look.</p> 
+                                <p className='text-[16px] font-inter text-[#737373] leading-[26px]  '>There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form, by injected humour, or randomised words which don't look.</p>
                             </div>
                         </div>
                     </div>
