@@ -1,5 +1,10 @@
 // ! image import 
 import managementApp from '../../assets/work-img/management.jpg';
+import sass from '../../assets/work-img/sass.png';
+import appDesign from '../../assets/work-img/app-design.png';
+import landingPage from '../../assets/work-img/landing-page.png';
+import dashboard from '../../assets/work-img/dashboard.png';
+import webApp from '../../assets/work-img/web-app.png';
 // ! image import 
 
 const Work = () => {
@@ -25,7 +30,7 @@ const Work = () => {
                         </div>
 
                         <div className="work-details rounded-[20px] bg-white hover:shadow-service duration-300 cursor-pointer">
-                            <img src={managementApp} className='rounded-[20px] w-full ' alt="work image" />
+                            <img src={sass} className='rounded-[20px] w-full ' alt="work image" />
                             <div className="work-items py-[30px] px-[45px] text-center ">
                                 <h3 className='text-[20px] font-bold font-inter  '>Task Management App</h3>
                                 <p className='font-inter text-[16px] leading-[26px] pt-2.5 '>This is a task management application that can help you be more </p>
@@ -33,7 +38,7 @@ const Work = () => {
                         </div>
 
                         <div className="work-details rounded-[20px] bg-white hover:shadow-service duration-300 cursor-pointer">
-                            <img src={managementApp} className='rounded-[20px] w-full ' alt="work image" />
+                            <img src={appDesign} className='rounded-[20px] w-full ' alt="work image" />
                             <div className="work-items py-[30px] px-[45px] text-center ">
                                 <h3 className='text-[20px] font-bold font-inter  '>Task Management App</h3>
                                 <p className='font-inter text-[16px] leading-[26px] pt-2.5 '>This is a task management application that can help you be more </p>
@@ -41,7 +46,7 @@ const Work = () => {
                         </div>
 
                         <div className="work-details rounded-[20px] bg-white hover:shadow-service duration-300 cursor-pointer">
-                            <img src={managementApp} className='rounded-[20px] w-full ' alt="work image" />
+                            <img src={landingPage} className='rounded-[20px] w-full ' alt="work image" />
                             <div className="work-items py-[30px] px-[45px] text-center ">
                                 <h3 className='text-[20px] font-bold font-inter  '>Task Management App</h3>
                                 <p className='font-inter text-[16px] leading-[26px] pt-2.5 '>This is a task management application that can help you be more </p>
@@ -49,7 +54,7 @@ const Work = () => {
                         </div>
 
                         <div className="work-details rounded-[20px] bg-white hover:shadow-service duration-300 cursor-pointer">
-                            <img src={managementApp} className='rounded-[20px] w-full ' alt="work image" />
+                            <img src={dashboard} className='rounded-[20px] w-full ' alt="work image" />
                             <div className="work-items py-[30px] px-[45px] text-center ">
                                 <h3 className='text-[20px] font-bold font-inter  '>Task Management App</h3>
                                 <p className='font-inter text-[16px] leading-[26px] pt-2.5 '>This is a task management application that can help you be more </p>
@@ -57,13 +62,13 @@ const Work = () => {
                         </div>
 
                         <div className="work-details rounded-[20px] bg-white hover:shadow-service duration-300 cursor-pointer">
-                            <img src={managementApp} className='rounded-[20px] w-full ' alt="work image" />
+                            <img src={webApp} className='rounded-[20px] w-full ' alt="work image" />
                             <div className="work-items py-[30px] px-[45px] text-center ">
                                 <h3 className='text-[20px] font-bold font-inter  '>Task Management App</h3>
                                 <p className='font-inter text-[16px] leading-[26px] pt-2.5 '>This is a task management application that can help you be more </p>
                             </div>
                         </div>
- 
+
                     </div>
                 </div>
             </section>
