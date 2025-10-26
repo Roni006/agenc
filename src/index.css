@@ -66,3 +66,9 @@
 }
 
 /* ! react slick slider css */
+
+/*! review section css */ 
+.slick-center .review-item{
+    background-color: #F4EFEF !important;
+}
+/*! review section css */
