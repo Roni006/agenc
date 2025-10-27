@@ -30,6 +30,10 @@
         line-height: 40px;
         color: #7B7B7B;
         display: inline-block;
+        transition: all 0.2s linear;
+    }
+    .menu li a:hover{
+        color: #6a4df4;
     }
     /* //! footer section */
 }
