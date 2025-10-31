@@ -20,9 +20,9 @@ const Banner = () => {
     }
     return (
         <>
-            <section className='relative'>
+            <section className='relative '>
                 <div className="banner-contents">
-                    <img src={banner} alt="banner image" className='w-full' />
+                    <img src={banner} alt="banner image" className='w-full h-screen' />
                     <div className='absolute top-0 left-0 w-full h-full bg-[rgba(0,0,0,0.61)] '>
                         <div className="max-w-[950px] absolute top-[50%] left-[50%] -translate-x-2/4 -translate-y-2/4 z-10 text-center ">
 

@@ -8,7 +8,7 @@ let project = 351;
 const Success = () => {
     return (
         <>
-            <section className='pt-[170px] pb-[100px]'>
+            <section className='pt-[170px] pb-[100px] hidden'>
                 <div className="container">
                     <div className="row flex items-center gap-[124px]  bg-[#E0FFF9] py-[85px] px-[50px] rounded-[20px] " >
                         <div className="success-left w-2/5">

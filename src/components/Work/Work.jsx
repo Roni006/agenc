@@ -10,7 +10,7 @@ import webApp from '../../assets/work-img/web-app.png';
 const Work = () => {
     return (
         <>
-            <section className="bg-[#F3F3F3] py-[140px]  ">
+            <section className="bg-[#F3F3F3] py-[140px] hidden ">
                 <div className="container">
                     <div className="service-top text-center max-w-[609px] mx-auto ">
                         <h3 className='font-inter font-bold text-[#151515] text-[45px] pb-5 '>Our Recent Work</h3>
