@@ -6,7 +6,7 @@ import logo from '../../assets/footer-logo.png'
 const Footer = () => {
     return (
         <>
-            <section className='pt-[150px] hidden'>
+            <section className='pt-[150px]'>
                 <div className="container">
                     <div className="footer-content flex gap-[110px] justify-between mb-[50px]">
                         <div className="item1 max-w-[33.33%]">

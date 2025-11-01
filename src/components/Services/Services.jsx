@@ -10,7 +10,7 @@ import marketing from '../../assets/service/marketing.png'
 const Services = () => {
     return (
         <>
-            <section className='pb-[105px]  hidden'>
+            <section className='pb-[105px]'>
                 <div className="container">
                     <div className="service-top text-center max-w-[609px] mx-auto ">
                         <h3 className='font-inter font-bold text-[#151515] text-[45px] pb-5 '>Our Provided Services</h3>

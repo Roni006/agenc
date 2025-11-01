@@ -18,12 +18,12 @@ function App() {
       <Navbar />
       <Banner />
       <Success />
-      <Services />
-      <Work />
-      <Whychoose />
-      <Review />
-      <Contact />
-      <Footer />
+      {/* <Services /> */}
+      {/* <Work /> */}
+      {/* <Whychoose /> */}
+      {/* <Review /> */}
+      {/* <Contact /> */}
+      {/* <Footer /> */}
     </>
   )
 }
