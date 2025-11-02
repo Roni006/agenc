@@ -10,16 +10,16 @@ import webApp from '../../assets/work-img/web-app.png';
 const Work = () => {
     return (
         <>
-            <section className="bg-[#F3F3F3] py-[140px] ">
+            <section className="bg-[#F3F3F3] py-[70px] lg:py-[140px] ">
                 <div className="container">
                     <div className="service-top text-center max-w-[609px] mx-auto ">
-                        <h3 className='font-inter font-bold text-[#151515] text-[45px] pb-5 '>Our Recent Work</h3>
-                        <p className='text-[#737373] font-inter text-[16px]   pb-[50px]'>
+                        <h3 className='font-inter font-bold text-[#151515] text-[32px] lg:text-[45px] pb-5 '>Our Recent Work</h3>
+                        <p className='text-[#737373] font-inter text-[16px] pb-[50px]'>
                             There are many variations of passages of Lorem Ipsum available, but the majority  have suffered alteration in some form.
                         </p>
                     </div>
 
-                    <div className="work-item grid grid-cols-3 gap-6">
+                    <div className="work-item grid grid-cols-1 lg:grid-cols-3 gap-[30px] lg:gap-6">
 
                         <div className="work-details rounded-[20px] bg-white hover:shadow-service duration-300 cursor-pointer">
                             <img src={managementApp} className='rounded-[20px] w-full ' alt="work image" />

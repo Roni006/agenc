@@ -18,10 +18,10 @@ function App() {
       <Navbar />
       <Banner />
       <Success />
-      {/* <Services /> */}
-      {/* <Work /> */}
-      {/* <Whychoose /> */}
-      {/* <Review /> */}
+      <Services />
+      <Work />
+      <Whychoose />
+      <Review />
       {/* <Contact /> */}
       {/* <Footer /> */}
     </>

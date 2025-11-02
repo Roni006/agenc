@@ -10,17 +10,17 @@ import marketing from '../../assets/service/marketing.png'
 const Services = () => {
     return (
         <>
-            <section className='pb-[105px]'>
+            <section className='lg:pb-[105px]'>
                 <div className="container">
                     <div className="service-top text-center max-w-[609px] mx-auto ">
-                        <h3 className='font-inter font-bold text-[#151515] text-[45px] pb-5 '>Our Provided Services</h3>
-                        <p className='text-[#737373] font-inter text-[16px]   pb-[50px]'>
+                        <h3 className='font-inter font-bold text-[#151515] text-[32px] lg:text-[45px] pb-5 '>Our Provided Services</h3>
+                        <p className='text-[#737373] font-inter text-[16px]  pb-[30px] lg:pb-[50px]'>
                             There are many variations of passages of Lorem Ipsum available, but the majority  have suffered alteration in some form.
                         </p>
                     </div>
 
                     <div className="service-body">
-                        <div className="service content grid grid-cols-3 gap-x-6 gap-y-6">
+                        <div className="service content grid grid-cols-1 lg:grid-cols-3 gap-x-6 gap-y-6">
 
                             <div className="service-item pt-20 pb-[47px] px-[55px] text-center hover:shadow-service hover:rounded-[20px] cursor-pointer duration-300" >
                                 <img src={design} className='mx-auto' alt="service image" />
