@@ -10,7 +10,7 @@ const Whychoose = () => {
             <section className='pt-[70px] lg:pt-[150px] pb-[70px] lg:pb-[106px]'>
                 <div className="container">
                     <div className="service-top text-center w-full lg:max-w-[802px] mx-auto ">
-                        <h3 className='font-inter font-bold text-[#151515] text-[32px] lg:text-[45px] pb-5 px-[135px] '>Why You Should Choose Agenc    </h3>
+                        <h3 className='font-inter font-bold text-[#151515] text-[32px] lg:text-[45px] pb-5 px-[20px] lg:px-[135px] '>Why You Should Choose Agenc    </h3>
                         <p className='text-[#737373] font-inter text-[16px] '>
                             There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
                         </p>

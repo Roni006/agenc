@@ -65,7 +65,7 @@ const Review = () => {
                 <div className="container">
                     <div className="service-top text-center max-w-[609px] mx-auto pb-[50px] lg:pb-[130px]">
                         <h3 className='font-inter font-bold text-[#151515] text-[32px] lg:text-[45px] pb-5'>Some Client Reviews</h3>
-                        <p className='text-[#737373] font-inter text-[16px]  pb-[50px]'>
+                        <p className='text-[#737373] font-inter text-[16px] pb-0 lg:pb-[50px]'>
                             There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form.
                         </p>
                     </div>
