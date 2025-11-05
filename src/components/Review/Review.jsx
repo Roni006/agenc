@@ -69,7 +69,7 @@ const Review = () => {
                             There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form.
                         </p>
                     </div>
-                    <div className="slider-main relative">
+                    <div className="slider-main relative ">
                         <Slider {...settings}>
                             <div className="review-item duration-500 max-w-[425px] py-[55px] px-[58px] rounded-[30px]">
                                 <img src={quote} alt="" />

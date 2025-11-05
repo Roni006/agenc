@@ -36,8 +36,8 @@ const Navbar = () => {
                             <a href="#" className="py-[15px] px-[42px] bg-[#6A4DF4] text-white text-[20px] rounded-[10px] font-semibold border-1 border-[#6A4DF4] hover:bg-transparent hover:text-[#6A4DF4] duration-300 font-inter">Contact</a>
                         </div>
                     </div>
-                    <div className={`mobile-menu w-screen bg-[#694df4f3] z-99999 fixed top-0 right-0 flex flex-col justify-center items-center gap-4  duration-300 transition-all ease-in-out
-                        ${showMenu ? 'h-screen opacity-100' : 'h-0 opacity-0'} 
+                    <div className={`mobile-menu w-screen bg-[#694df4f3] z-99999 fixed opacity-0 invisible top-0 right-0 flex flex-col justify-center items-center gap-4 duration-300 transition-all ease-in-out
+                            ${showMenu ? 'translate-x-0 opacity-100 visible h-full' : 'translate-x-full opacity-0 invisible h-0'}
 
                         `}>
                         <a href="Navbar.jsx">Home</a>
