@@ -50,13 +50,23 @@ const Review = () => {
         // ! resposive breakpoint 
         responsive: [
             {
-                breakpoint: 641,
+                breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true, 
                 }
-            }
+            },
+            {
+                breakpoint: 641,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true, 
+                    // dots: true,
+                }
+            },
+           
         ]
     };
     return (
@@ -69,9 +79,9 @@ const Review = () => {
                             There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form.
                         </p>
                     </div>
-                    <div className="slider-main relative ">
+                    <div className="slider-main relative">
                         <Slider {...settings}>
-                            <div className="review-item duration-500 max-w-[425px] py-[55px] px-[58px] rounded-[30px]">
+                            <div className="review-item duration-500 mx-auto max-w-[425px] py-[55px] px-[58px] rounded-[30px]">
                                 <img src={quote} alt="" />
                                 <p className='text-[16px] font-inter leading-[26px] font-regular text-[#7B7B7B] py-5 '>I had a good experience while using this app, what fascinated me was the live tracking feature There are many variations of passages of Lorem Ipsum available, but the majority.</p>
                                 <div className="star">

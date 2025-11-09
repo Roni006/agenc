@@ -10,12 +10,12 @@ const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false)
     return (
         <>
-            <header className="lg:pt-[30px] pt-[35px] absolute top-0 left-0 w-full z-10 px-4 lg:px-0">
+            <header className="lg:pt-[30px] sm:pt-[20px] pt-[35px] absolute top-0 left-0 w-full z-10 px-4 lg:px-0">
                 <div className="container">
                     <div className="row flex justify-between items-center">
                         <div className="logo">
                             <a href="Navbar.jsx">
-                                <img src={logo} alt="logo image" />
+                                <img src={logo} className='sm:w-[150px]' alt="logo image" />
                             </a>
                         </div>
                         <div className="bar md:hidden block">
