@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 // !react toast 
-import { ToastContainer, toast } from 'react-toastify'; 
+import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 // !react toast 
 
@@ -66,15 +66,15 @@ const Contact = () => {
             <ToastContainer />
             <section className='bg-[#F3F3F3] py-[70px] lg:py-[150px]'>
                 <div className="container">
-                    <div className="contact-body grid grid-cols-1 lg:grid-cols-2 gap-[50px] lg:gap-[146px] items-center">
+                    <div className="contact-body grid grid-cols-1 lg:grid-cols-2 gap-[50px] lg:gap-20 md:gap-5 items-center md:px-2">
                         <div className="contact-details">
-                            <h2 className='text-[32px] lg:text-[45px] font-inter font-bold text-[#151515] pr-0 lg:pr-[106px]'>We Do design, Code & Development</h2>
+                            <h2 className='text-[32px]  lg:text-[35px] font-inter font-bold text-[#151515] pr-0 md:pr-5 lg:pr-[106px]'>We Do design, Code & Development</h2>
                             <p className="text-[16px] text-[#7B7B7B] leading-[26px] pr-[65px] pt-[18px] pb-[15px]">I had a good experience while using this app, what fascinated me was the live tracking feature There are many variations of passages of Lorem Ipsum available, but the majority.</p>
                             <p className="text-[16px] text-[#7B7B7B] leading-[26px] pr-[50px]">There are many variations of passages of Lorem Ipsum available, but themajority  have suffered alteration in some form.</p>
                         </div>
 
                         <div className="contact-form">
-                            <div className="form-content py-[41px] px-[43px] bg-white rounded-[20px]">
+                            <div className="form-content py-[41px] px-[43px] md:px-5 bg-white rounded-[20px]">
                                 <h3 className="text-[25px] lg:text-[30px] font-bold text-[#151515] mb-[30px] text-center ">Get a free quote now</h3>
                                 <form onSubmit={handleSubmit}>
 
@@ -97,10 +97,13 @@ const Contact = () => {
                                         {error.phone && <strong style={{ color: "red", fontSize: '12px' }}>{error.phone}</strong>}
                                     </div>
 
-                                    <div className="btn text-center">
+                                    <div className="text-center">
                                         <button type="submit" className="cursor-pointer bg-[#6A4DF4] text-[18px] lg:text-[20px] text-[#ffffff]
-                                        py-4 lg:py-[19px] px-[50px]  lg:px-[147px] lg:w-full rounded-[10px] font-inter font-semibold leading-[26px]">Get Pricing Now</button>
+                                        py-4 lg:py-[19px] md:px-[50px] px-5 lg:px-[147px] lg:w-full rounded-[10px] font-inter font-semibold leading-[26px]">Get Pricing Now</button>
                                     </div> 
+
+                                    
+
                                 </form>
                             </div>
                         </div>

@@ -50,7 +50,14 @@ const Review = () => {
         // ! resposive breakpoint 
         responsive: [
             {
-                breakpoint: 768,
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2, 
+                    infinite: true, 
+                }
+            },
+            {
+                breakpoint: 767,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
@@ -81,7 +88,7 @@ const Review = () => {
                     </div>
                     <div className="slider-main relative">
                         <Slider {...settings}>
-                            <div className="review-item duration-500 mx-auto max-w-[425px] py-[55px] px-[58px] rounded-[30px]">
+                            <div className="review-item duration-500 lg:max-w-[425px] sm:w-full py-[55px] px-[58px] rounded-[30px]">
                                 <img src={quote} alt="" />
                                 <p className='text-[16px] font-inter leading-[26px] font-regular text-[#7B7B7B] py-5 '>I had a good experience while using this app, what fascinated me was the live tracking feature There are many variations of passages of Lorem Ipsum available, but the majority.</p>
                                 <div className="star">
@@ -102,7 +109,7 @@ const Review = () => {
                                 </div>
                             </div>
 
-                            <div className="review-item duration-500 max-w-[425px] py-[55px] px-[58px] rounded-[30px]">
+                            <div className="review-item duration-500 lg:max-w-[425px] sm:w-full py-[55px] px-[58px] rounded-[30px]">
                                 <img src={quote} alt="" />
                                 <p className='text-[16px] font-inter leading-[26px] font-regular text-[#7B7B7B] py-5 '>I had a wonderful experience while using this platform, what impressed me most was the quick response feature. There are many versions of feedback tools available, but this one feels the most reliable.</p>
                                 <div className="star">
@@ -123,7 +130,7 @@ const Review = () => {
                                 </div>
                             </div>
 
-                            <div className="review-item duration-500 max-w-[425px] py-[55px] px-[58px] rounded-[30px]">
+                            <div className="review-item duration-500 lg:max-w-[425px] sm:w-full py-[55px] px-[58px] rounded-[30px]">
                                 <img src={quote} alt="" />
                                 <p className='text-[16px] font-inter leading-[26px] font-regular text-[#7B7B7B] py-5 '>I had a smooth experience while using this website, what fascinated me most was the clean interface. There are many similar products online, but the majority don’t work this efficiently.</p>
                                 <div className="star">
@@ -144,7 +151,7 @@ const Review = () => {
                                 </div>
                             </div>
 
-                            <div className="review-item duration-500 max-w-[425px] py-[55px] px-[58px] rounded-[30px]">
+                            <div className="review-item duration-500 lg:max-w-[425px] sm:w-full py-[55px] px-[58px] rounded-[30px]">
                                 <img src={quote} alt="" />
                                 <p className='text-[16px] font-inter leading-[26px] font-regular text-[#7B7B7B] py-5 '>I had a pleasant experience while exploring this service, what I loved most was the detailed analytics feature. There are many types of applications like this, but most fail to maintain consistency.</p>
                                 <div className="star">

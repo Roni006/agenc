@@ -8,15 +8,15 @@ const Footer = () => {
         <>
             <section className='pt-[70px] lg:pt-[150px]'>
                 <div className="container">
-                    <div className="footer-content lg:flex gap-[110px] justify-between mb-[50px]">
-                        <div className="item1 w-full lg:w-[356px] pb-[50px] lg:pb-0">
+                    <div className="footer-content lg:flex md:flex-wrap gap-[110px] md:gap-[50px]  justify-between mb-[50px]">
+                        <div className="w-full md:w-[80%] md:mx-auto md:text-center lg:w-[356px] pb-[50px] lg:pb-0 ">
                             <a href="Navbar.jsx">
-                                <img src={logo} alt="footer logo" />
+                                <img src={logo} alt="footer logo" className='mx-auto'/>
                             </a>
-                            <p className='text-[16px] leading-[26px] text-[#7b7b7b] pt-[30px] max-w-[356px]'>I had a good experience while using this app, what fascinated me was the live tracking feature There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+                            <p className='text-[16px] leading-[26px] text-[#7b7b7b] pt-[30px] lg:max-w-[356px] sm:w-full md:w-full  '>I had a good experience while using this app, what fascinated me was the live tracking feature There are many variations of passages of Lorem Ipsum available, but the majority.</p>
                         </div>
 
-                        <div className="grid grid-cols-2 lg:grid-cols-4 gap-0 lg:gap-[110px] gap-y-6 lg:gap-y-0">
+                        <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 gap-0 lg:gap-[110px]  gap-y-6 lg:gap-y-0 sm:pr-[15px] ">
                             <div className="item1 w-[72px]">
                                 <h3 className='text-[20px] text-[#151515] font-inter font-semibold mb-2 lg:mb-10'>About</h3>
                                 <ul className='menu'>

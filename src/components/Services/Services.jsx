@@ -20,7 +20,7 @@ const Services = () => {
                     </div>
 
                     <div className="service-body">
-                        <div className="service content grid grid-cols-1 lg:grid-cols-3 gap-x-6 gap-y-6">
+                        <div className="service-content grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-6">
 
                             <div className="service-item pt-20 pb-[47px] px-[55px] text-center hover:shadow-service hover:rounded-[20px] cursor-pointer duration-300" >
                                 <img src={design} className='mx-auto' alt="service image" />
