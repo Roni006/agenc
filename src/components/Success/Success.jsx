@@ -10,7 +10,7 @@ const Success = () => {
         <>
             <section className='pt-[70px] lg:pt-[170px] lg:pb-[100px] pb-[70px]'>
                 <div className="container">
-                    <div className="row lg:flex items-center gap-[124px] md:gap-[50px] md:flex-wrap  bg-[#E0FFF9] py-[85px]  rounded-[20px] pl-[15px] lg:pl-[55px] pr-[15px] lg:pr-[37]" >
+                    <div className="row lg:flex items-center gap-[124px] md:gap-[50px] md:flex-wrap  bg-[#E0FFF9] py-[85px] rounded-[20px] pl-[15px] lg:pl-[55px] pr-[15px] lg:pr-[37px]" >
                         <div className="success-left w-full lg:w-2/5">
                             <div className="success-left-content">
                                 <h3 className='text-[#6A4DF4] text-[25px] font-medium font-inter leading-[120%] pb-[15px] '>Our Success</h3>

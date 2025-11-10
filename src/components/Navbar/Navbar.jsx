@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import logo from '../../assets/logo.png'
 // !react icon 
 import { FaBars } from "react-icons/fa";
@@ -7,10 +7,22 @@ import { RxCross2 } from "react-icons/rx";
 
 
 const Navbar = () => {
-    const [showMenu, setShowMenu] = useState(false)
+    const [showMenu, setShowMenu] = useState(false);
+
+    const [isSticky, setIsSticky] = useState(false)
+
+    useEffect(() => {
+        const handleScrool = () => {
+            setIsSticky(window.scrollY > 50)
+        }
+        window.addEventListener('scroll', handleScrool)
+        return () => window.removeEventListener('scroll', handleScrool)
+    })
     return (
         <>
-            <header className="lg:pt-[30px] sm:pt-5 pt-[35px] absolute top-0 left-0 w-full z-10 px-4 lg:px-0">
+            <header className={` sm:pt-5 pt-[35px] fixed top-0 left-0 w-full z-10 px-4 lg:px-0 duration-300
+                ${isSticky ? 'bg-[#00000074] py-5 shadow-sm' : 'bg-transparent py-5 lg:pt-[57px]'}
+                `}>
                 <div className="container">
                     <div className="row flex justify-between items-center">
                         <div className="logo">
@@ -45,7 +57,7 @@ const Navbar = () => {
                         <a href="#">Service</a>
                         <a href="#">Careers</a>
                         <a href="#">Contact</a>
-                        <RxCross2 onClick={()=> setShowMenu(false)} className='absolute top-5 right-5 text-4xl cursor-pointer' />
+                        <RxCross2 onClick={() => setShowMenu(false)} className='absolute top-5 right-5 text-4xl cursor-pointer' />
                     </div>
                 </div>
             </header>
