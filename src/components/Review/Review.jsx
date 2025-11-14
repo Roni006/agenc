@@ -78,7 +78,7 @@ const Review = () => {
     };
     return (
         <>
-            <section className='pb-[70px] lg:pb-[150px]'>
+            <section className='pb-[70px] lg:pb-[150px]' id='review'>
                 <div className="container">
                     <div className="service-top text-center max-w-[609px] mx-auto pb-[50px] lg:pb-[130px]">
                         <h3 className='font-inter font-bold text-[#151515] text-[32px] lg:text-[45px] pb-5'>Some Client Reviews</h3>

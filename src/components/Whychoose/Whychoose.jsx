@@ -7,7 +7,7 @@ import wcaBg from '../../assets/wca-img/wca-side-bg.jpg';
 const Whychoose = () => {
     return (
         <>
-            <section className='pt-[70px] lg:pt-[150px] pb-[70px] lg:pb-[106px]'>
+            <section className='pt-[70px] lg:pt-[150px] pb-[70px] lg:pb-[106px]' id='whychoose'>
                 <div className="container">
                     <div className="service-top text-center w-full lg:max-w-[802px] mx-auto ">
                         <h3 className='font-inter font-bold text-[#151515] text-[32px] lg:text-[45px] pb-5 px-5 lg:px-[135px] '>Why You Should Choose Agenc    </h3>

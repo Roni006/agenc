@@ -64,7 +64,7 @@ const Contact = () => {
     return (
         <>
             <ToastContainer />
-            <section className='bg-[#F3F3F3] py-[70px] lg:py-[150px]'>
+            <section className='bg-[#F3F3F3] py-[70px] lg:py-[150px]' id="contact">
                 <div className="container">
                     <div className="contact-body grid grid-cols-1 lg:grid-cols-2 gap-[50px] lg:gap-20 md:gap-5 items-center md:px-2">
                         <div className="contact-details">

@@ -3,6 +3,10 @@
 /*! tail wind css import  */
 @import "tailwindcss";
 
+html {
+    scrollbar-width: smooth;
+}
+
 /* ! design part */
 
 .container {
@@ -53,6 +57,13 @@
     }
 
     /* //! footer section */
+
+    /* ! navabr: rect scollspy */
+    .nav-active {
+        color: #4756DF !important;
+    }
+
+    /* ! navabr: rect scollspy */
 }
 
 @theme {
