@@ -40,7 +40,7 @@ const Navbar = () => {
                             <div className="menus hidden md:block">
                                 <nav>
                                     <ul className="menu flex items-center md:gap-[50px] gap-[68px]">
-                                        <li><a href="banner">Home</a></li>
+                                        <li><a href="#banner">Home</a></li>
                                         <li><a href="#about">About</a></li>
                                         <li><a href="#service">Service</a></li>
                                         <li><a href="#work">Work</a></li>
